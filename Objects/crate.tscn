@@ -1,12 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://bc6kd3t4kheq3"]
+[gd_scene load_steps=4 format=3 uid="uid://bc6kd3t4kheq3"]
 
 [ext_resource type="Texture2D" uid="uid://cc402026df4wg" path="res://Sprites/Crate.png" id="1_djfon"]
+[ext_resource type="Script" path="res://Scripts/Crate.gd" id="1_yyslo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bicer"]
-size = Vector2(16, 16)
+size = Vector2(18, 18)
 
 [node name="Crate" type="RigidBody2D"]
 gravity_scale = 0.0
+script = ExtResource("1_yyslo")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("1_djfon")

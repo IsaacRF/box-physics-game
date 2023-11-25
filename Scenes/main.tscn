@@ -11,34 +11,14 @@
 zoom = Vector2(4, 4)
 
 [node name="Crate" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-47, -5)
+position = Vector2(-82, 1)
 
 [node name="Crate2" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-63, 34)
+position = Vector2(0, -47)
+size_increase = 2.0
+weight = 50
 
 [node name="Crate3" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-87, -3)
-
-[node name="Crate4" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(52, -26)
-
-[node name="Crate5" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-76, -29)
-
-[node name="Crate6" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(54, 18)
-
-[node name="Crate7" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(34, 42)
-
-[node name="Crate8" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(33, -7)
-
-[node name="Crate9" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(16, -37)
-
-[node name="Crate10" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-25, -59)
-
-[node name="Crate11" parent="." instance=ExtResource("2_7mj70")]
-position = Vector2(-14, 49)
+position = Vector2(81, 0)
+size_increase = 4.0
+weight = 1000

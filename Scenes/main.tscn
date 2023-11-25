@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bgvh13f8x4pu5"]
+[gd_scene load_steps=3 format=3 uid="uid://bgvh13f8x4pu5"]
 
 [ext_resource type="PackedScene" uid="uid://y5jivre4yx5v" path="res://Objects/player.tscn" id="1_544sc"]
+[ext_resource type="PackedScene" uid="uid://bc6kd3t4kheq3" path="res://Objects/crate.tscn" id="2_7mj70"]
 
 [node name="Main" type="Node2D"]
 
@@ -8,3 +9,36 @@
 
 [node name="Camera" type="Camera2D" parent="."]
 zoom = Vector2(4, 4)
+
+[node name="Crate" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-47, -5)
+
+[node name="Crate2" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-63, 34)
+
+[node name="Crate3" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-87, -3)
+
+[node name="Crate4" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(52, -26)
+
+[node name="Crate5" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-76, -29)
+
+[node name="Crate6" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(54, 18)
+
+[node name="Crate7" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(34, 42)
+
+[node name="Crate8" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(33, -7)
+
+[node name="Crate9" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(16, -37)
+
+[node name="Crate10" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-25, -59)
+
+[node name="Crate11" parent="." instance=ExtResource("2_7mj70")]
+position = Vector2(-14, 49)
